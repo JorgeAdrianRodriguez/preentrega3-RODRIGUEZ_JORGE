@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camisetas Retro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+
+    <header>
+        <nav class="navegador">
+            <ul>
+                <li><a href="./index.html">Comprar</a></li>               
+                <li><a href="#tabla"><i class="fa-solid fa-cart-shopping"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1 class="titulo">Camisetas Retro</h1>
+    <h2 class="presentacion">Las mejores camisetas de fútbol retro. Camisetas de todos los clubes, equipos y ligas, todo lo que buscas lo tenemos acá!.</h2>
+
+    <main>
+        <section id="tarjetaCamiseta" class="productos">
+    </main>
+
+    <div class="contCarrito">
+        <h4>Tu carrito:</h4>
+        <table  id="tabla" class="table table-striped">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Precio</th>
+                    <th>cantidad</th>
+                    <th></th>
+                    
+                </tr>
+            </thead>
+            <tbody id="carrito">
+                
+            </tbody>
+        </table>
+        <h4 id="totalCarrito">Total a pagar $:</h4>        
+        <button id="finalizar" class="btn btn-success">Finalizar compra</button>   
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="./assets/script/camiseta.js"></script>
+    <script src="./assets/script/main.js"></script>
+</body>
+</html>
